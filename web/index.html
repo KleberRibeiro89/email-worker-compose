@@ -7,7 +7,7 @@
     <title>Email sender</title>
 </head>
 <body>
-    <form>
+    <form action="http://localhost:8082/" method="post">
         <div>
             <label>Destinatário</label>
             <input type="text" name="destinatario">
@@ -18,11 +18,11 @@
         </div>        
         <div>
             <label>Mensagem</label>
-            <textarea  name="Mensagem">
+            <textarea  name="mensage"></textarea>
         </div>                
         <div>
             <label></label>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar"  title="Enviar">
         </div>                        
     </form>
 </body>
